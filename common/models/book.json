@@ -1,0 +1,40 @@
+{
+  "name": "book",
+  "base": "PersistedModel",
+  "strict": false,
+  "idInjection": false,
+  "collation": "utf8_general_ci",
+  "resetPasswordTokenTTL": 3600,
+  "options": {},
+  "properties": {
+    "id": {
+      "type": "string",
+      "required": true
+    },
+    "kind": {
+      "type": "string"
+    },
+    "etag": {
+      "type": "string"
+    },
+    "selfLink": {
+      "type": "string"
+    },
+    "volumeInfo": {
+      "type": "object"
+    },
+    "saleInfo": {
+      "type": "object"
+    },
+    "accessInfo": {
+      "type": "object"
+    },
+    "searchInfo": {
+      "type": "object"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
